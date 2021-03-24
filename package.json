@@ -1,0 +1,14 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rayel06/typescript.git",
+  "author": "rayel06 <tjdgus7771@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js" 
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.2.9"
+  }
+}
