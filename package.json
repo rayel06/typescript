@@ -6,9 +6,12 @@
   "author": "rayel06 <tjdgus7771@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "tsc-watch --onSuccess \"node dist/index.js" 
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
   },
   "devDependencies": {
-    "tsc-watch": "^4.2.9"
+    "@types/node": "^14.14.35",
+    "ts-node": "^9.1.1",
+    "tsc-watch": "^1.0.17",
+    "typescript": "^4.2.3"
   }
 }
